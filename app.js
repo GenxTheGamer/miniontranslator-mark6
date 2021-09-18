@@ -1,15 +1,12 @@
-var btn = document.querySelector("#btn-translate");
-var inputText = document.querySelector("#txt-input");
+var btn = document.querySelector("#btn-translate"); //button
+var inputText = document.querySelector("#txt-input"); //input
+var outputText = document.querySelector("#txt-output"); //output
 
 function clickHandler() {
-  console.log("click");
-  console.log("event", inputText.value);
+  //clickEventListener
+  outputText.innerText = "hihitrhi" + inputText.value;
+
+  console.log("event", inputText.value); //taking value of inputText.
 }
 
 btn.addEventListener("click", clickHandler);
-
-//querySelector live exercise
-var ques1TextAreaTag = document.querySelector("textarea");
-var quest2btnprimary = document.querySelector(".btn-primary");
-var quest3inputBtn = document.querySelector("#input-btn");
-var quest4inputTranslator = document.querySelector("input[name='translator']");
