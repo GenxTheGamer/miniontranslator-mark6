@@ -7,3 +7,9 @@ function clickHandler() {
 }
 
 btn.addEventListener("click", clickHandler);
+
+//querySelector live exercise
+var ques1TextAreaTag = document.querySelector("textarea");
+var quest2btnprimary = document.querySelector(".btn-primary");
+var quest3inputBtn = document.querySelector("#input-btn");
+var quest4inputTranslator = document.querySelector("input[name='translator']");
