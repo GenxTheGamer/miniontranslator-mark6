@@ -3,11 +3,22 @@
 :root{
     --primary-color: #FCD34D;
     --secondary-color: #F59E0B;
+    --link-color: #FEF3C7;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--primary-color);
+    margin: 0px;
+}
+
+.container {
+    padding: 0rem 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
 }
 
 .authorName {
@@ -24,22 +35,38 @@ body {
 #btn-translate {
         font-family: 'Montserrat', snas-serif;
         font-weight: bold;
-        margin: 1rem;
+        padding: 0.5rem 0.5rem;
+        margin: 2.5rem;
         color: white;
         background-color: var(--secondary-color);
 }
 
 #txt-input {
-    width: 30%;
+    width: 50%;
     padding: 1rem;
     display: block;
-    margin: 1rem;
+    margin: auto;
 }
 
 #txt-output {
-    width: 30%;
+    width: 50%;
     border: 1px solid black;
     display: block;
     padding: 1rem;
-    margin: 1rem;
+    margin: auto;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--secondary-color);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+.link{
+    color:var(--link-color);
+    text-decoration: none;
 }
